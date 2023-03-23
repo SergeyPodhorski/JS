@@ -8,29 +8,11 @@
 //     console.log("Folse");
 // }
 
-function proverka1 (aa) {
-    if(aa === 0){
-        console.log("True");
+function proverka (x) {
+    if(x === 0){
+        return "True"
     }else{
-        console.log("Folse");
+        return "False"
     }
 }
-
-function proverka2 (bb) {
-    if(bb === 0){
-        console.log("True");
-    }else{
-        console.log("Folse");
-    }
-}
-
-function proverka3 (cc) {
-    if(cc === 0){
-        console.log("True");
-    }else{
-        console.log("Folse");
-    }
-}
-proverka1 (1);
-proverka2 (0);
-proverka3 (-3);
+proverka(0);
