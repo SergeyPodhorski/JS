@@ -8,8 +8,8 @@
 // let str8 = `${a} times ${b} is 20`;
 // console.log(str8);
 
-function str8 (a, b) {
-    let str8 = `${a} times ${b} is 20`;
-    console.log(str8);
+function strSmall (a, b) {
+    let myStr = `${a} times ${b} is 20`;
+    return myStr;
 }
-str8 (10, 2);
+strSmall (10, 2);
