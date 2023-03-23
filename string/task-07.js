@@ -6,6 +6,6 @@
 
 function count5 (str5) {
     let sl = str5.slice(1)
-    console.log(+sl);
+    return +sl;
 }
 count5 ("$100");
