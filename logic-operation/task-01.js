@@ -24,14 +24,14 @@
 // }
 // console.log(min);
 
-function sum1 (a, b, c) {
-    let sum = Math.max(a, b, c);
-    console.log(sum);
+function max(a, b, c) {
+    let maxcount = Math.max(a, b, c);
+    return maxcount;
 }
-sum1 (10, 2, 5);
+max(10, 2, 5);
 
-function min1 (a, b, c) {
-    let min = Math.min(a, b, c);
-    console.log(min);
+function min(a, b, c) {
+    let mincount = Math.min(a, b, c);
+    return mincount;
 }
-min1 (10, 2, 5);
+min(10, 2, 5);
